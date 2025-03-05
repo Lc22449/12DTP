@@ -34,7 +34,7 @@
         text-decoration: none;
         font-weight: bold;
       }
-      .container {
+      main {
         padding: 2rem;
         max-width: 800px;
         margin: 0 auto;
@@ -58,7 +58,7 @@
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       }
-      .caption {
+      caption {
         font-style: italic;
         color: #777;
         margin-top: 0.5rem;
@@ -84,75 +84,78 @@
 
     <!-- Navigation -->
     <nav>
-      <ul>
-        <li><a href="#story">The Story</a></li>
-        <li><a href="#maui">Māui</a></li>
-        <li><a href="#sun">The Sun</a></li>
-        </ul>
-
-        
+        <a href="#story">The Story</a>
+        <a href="#maui">Māui</a>
+        <a href="#sun">The Sun</a>
+    </nav>    
     <!-- Main Content -->
-    <div class="container">
+    <main>
       <!-- The Story Section -->
-      <div id="story" class="section">
-        <div class="section-title">The Story</div>
+      <section id="story" class="section">
+        <h1 class="section-title">The Story</h1>
         <p>Published on March 01, 0025</p>
-        <div class="text">
+        <article>
           <p>
             Long ago, the sun (<strong>Tama-nui-te-rā</strong>) raced across the
             sky too quickly, leaving people with little time to work, fish, or
             grow food. Māui, the clever demigod, decided to slow down the sun to
             help his people.
           </p>
-        </div>
+        </article>
         <div class="image-container">
+        <figure>
           <img src="mauiandsun.jpg" alt="Māui and the Sun" />
-          <div class="caption">
+          <figcaption>
             Māui and his brothers preparing to catch the sun.
-          </div>
+          </figcaption>
+        </figure>
         </div>
-      </div>
+      </section>
 
       <!-- Māui Section -->
-      <div id="maui" class="section">
-        <div class="section-title">Māui: The Clever Demigod</div>
-        <div class="text">
+      <section>
+        <h1>Māui: The Clever Demigod</h1>
+        <article>
           <p>
             <strong>Māui</strong> was known for his cleverness and bravery. He
             convinced his brothers to help him by promising them a great reward.
             Together, they journeyed to the pit where the sun rose each morning.
           </p>
-        </div>
+        </article>
         <div class="image-container">
+        <figure>
           <img src="Maui.jpg" alt="Māui the Demigod" />
-          <div class="caption">
+          <figcaption>
             Māui, the clever demigod, preparing for the challenge.
-          </div>
+          </figcaption>
+        </figure>
         </div>
-      </div>
+      </section>
 
       <!-- The Sun Section -->
-      <div id="sun" class="section">
-        <div class="section-title">The Sun: Tama-nui-te-rā</div>
-        <div class="text">
+      <section>
+        <h1>The Sun: Tama-nui-te-rā</h1>
+        <article>
           <p>
             The sun, <strong>Tama-nui-te-rā</strong>, was powerful and fast.
             Māui and his brothers waited in hiding, ready to throw their ropes
             and trap the sun as it rose.
           </p>
-        </div>
-        <div class="text highlight">
+        </article>
+        <p class= "highlight">
           🔥 When the sun appeared, Māui leapt out and struck it with his
           magical jawbone, forcing it to slow down. 🌅
-        </div>
+        </p>
         <div class="image-container">
+          <figure>
           <img src="catchthesun.jpg" alt="Tama-nui-te-rā (The Sun)" />
-          <div class="caption">
+          <figcaption>
             Tama-nui-te-rā, the sun, being captured by Māui.
-          </div>
+          </figcaption>
+        </figure>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
 
     <!-- Footer -->
     <div class="footer">
