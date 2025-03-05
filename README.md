@@ -1,2 +1,0 @@
-# 12DTP
-the thing

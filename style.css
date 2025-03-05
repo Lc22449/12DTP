@@ -11,3 +11,6 @@ body {
     width: 600px;
     background-color: #654321;
 }
+.skeletonImage{
+    height: 200px;
+}
