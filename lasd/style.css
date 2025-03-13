@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(65, 65, 65);
+}
+
+.header{
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    background-color: rgb(255, 81, 0);
+    left: 0px;
+    top: 0px;
+}
+
+.ad{
+    text-align: center;
+    font-size: 300%;
+    padding: 70px 0;
+}
+
+.flex-container{
+    position: absolute;
+    display: flex;
+    background-color:rgb(65, 65, 65);;
+    width: 100%;
+    left: 0;
+    bottom: 50px;
+    height: 70%;
+}
+
+.flex-container > article{
+    background-color: rgb(85, 85, 85);
+    margin: 40px;
+    padding: 20px;
+    font-size: 30px;
+    width: 400px;
+    border-radius: 15px;
+    position: relative;
+    left: 175px;
+}
+
+.imgRounding{
+    border-radius: 10px;
+}
+.images{
+    width: 100%;
+}
+
+.gameTitle{
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: rgb(255, 196, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
