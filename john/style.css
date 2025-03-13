@@ -4,6 +4,5 @@
     position: absolute;
     background-color: red;
 }
-.game-card {
-    
-}
+.flex-container {
+    flex-direction: row;
